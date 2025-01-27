@@ -1,0 +1,6 @@
+// script.js
+document.getElementById('search-bar').addEventListener('input', function() {
+    let query = this.value.toLowerCase();
+    // هنا يمكنك إضافة الكود لعمل بحث في الإعلانات عند الكتابة
+    console.log("بحث عن:", query);
+});
